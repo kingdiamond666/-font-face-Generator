@@ -5,12 +5,12 @@ try {
   const fileArr2 = [];
 
   // Loop through first directory and push filename onto an array
-  const dir = await opendir("./_WOFF2");
+  const dir = await opendir("DIRECTORY1");
   for await (const font of dir) {
     fileArr.push(font.name);
   }
   // Loop through second directory and push filename onto a second array
-  const dir2 = await opendir("./_WOFF");
+  const dir2 = await opendir("DIRECTORY2");
   for await (const font2 of dir2) {
     fileArr2.push(font2.name);
   }
