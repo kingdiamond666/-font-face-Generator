@@ -5,3 +5,5 @@ SpareWoff2
 *.woff
 *.woff2
 package.json
+REMOVEME
+*.txt
