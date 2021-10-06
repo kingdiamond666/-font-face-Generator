@@ -7,3 +7,4 @@ SpareWoff2
 package.json
 REMOVEME
 *.txt
+.DS_Store
