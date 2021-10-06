@@ -19,7 +19,7 @@ try {
   const finfileArr2 = fileArr2.sort();
 
   const newArr = finfileArr.map((e, i) => [e, finfileArr2[i]]);
-
+  // Loop over and return an interpolated string to create a new array of final strings in their formats.
   const finalArr = newArr.map((item) => {
     return `@font-face{
       font-family: "${item[0].split(".")[0]}";

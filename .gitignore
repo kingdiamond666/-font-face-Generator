@@ -1,0 +1,7 @@
+_WOFF
+_WOFF2
+SpareWoff
+SpareWoff2
+*.woff
+*.woff2
+package.json
